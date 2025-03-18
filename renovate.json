@@ -8,7 +8,7 @@
         "datasourceTemplate": "github-tags",
         "depNameTemplate": "konflux-ci/rpm-lockfile-prototype",
         "matchStrings": [
-            "ARG RPM_LOCKFILE_PROTOTYPE_VERSION=(?<currentValue>[\\d\\.]+)"
+            "ARG RPM_LOCKFILE_PROTOTYPE_VERSION=(?<currentValue>v?[\\d\\.]+)"
         ],
         "versioningTemplate": "semver"
     },
@@ -20,7 +20,7 @@
         "datasourceTemplate": "github-tags",
         "depNameTemplate": "konflux-ci/pipeline-migration-tool",
         "matchStrings": [
-            "ARG PIPELINE_MIGRATION_TOOL_VERSION=(?<currentValue>[\\d\\.]+)"
+            "ARG PIPELINE_MIGRATION_TOOL_VERSION=(?<currentValue>v?[\\d\\.]+)"
         ],
         "versioningTemplate": "semver"
     }
