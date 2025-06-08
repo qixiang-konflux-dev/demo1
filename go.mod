@@ -1,3 +1,3 @@
 module go-demo
 
-require golang.org/x/net v0.17.0
+require golang.org/x/net v0.41.0
