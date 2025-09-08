@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/go-toolset:1.22@sha256:b0627f14a2179df19f449623328cd4f6db9b6e0c369e9a91dae811c1cd9402cb
+FROM registry.access.redhat.com/ubi9/go-toolset:9.6-1749636489@sha256:2a88121395084eaa575e5758b903fffb43dbf9d9586b2878e51678f63235b587
 ARG RPM_LOCKFILE_PROTOTYPE_VERSION=0.11.2
 ARG PIPELINE_MIGRATION_TOOL_VERSION=0.0.1
 CMD ["sleep", "infinity"]
